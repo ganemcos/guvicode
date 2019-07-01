@@ -1,9 +1,9 @@
 i = int(input())
 if i == 0:
     print("Zero")
-    exit
+    
 if i>0:
     print("Positive")
-else:
+elif i<0:
     print("Negitive")
     
