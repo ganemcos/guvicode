@@ -5,5 +5,5 @@ if i == 0:
 if i>0:
     print("Positive")
 elif i<0:
-    print("Negitive")
+    print("Negative")
     
