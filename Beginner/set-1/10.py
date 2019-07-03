@@ -1,2 +1,2 @@
-i = list(input())
+i = list(input().strip('-'))
 print(len(i))
