@@ -8,4 +8,11 @@ for i in range(m.floor(len(s)/2)):
         continue
     else:
         c+=2
-print("yes" if c+1 == len(s) else "no")
+
+# print("yes" if c+1 == len(s) else "no")
+
+# update prev code returns eror if the len(s) is even
+if len(s)%2 != 0:
+    print("yes" if c+1 == len(s) else "no")
+else:
+    print("yes" if c == len(s) else "no")
