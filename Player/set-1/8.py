@@ -1,0 +1,6 @@
+i,j = map(list,input().split())
+i[0] = i[0].upper()
+j[0] = j[0].upper()
+istr = "".join(i)
+jstr = "".join(j)
+print(istr,jstr)
