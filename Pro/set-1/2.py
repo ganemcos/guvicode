@@ -17,5 +17,5 @@ def smalnum_aft_k_del(list1,del_num_count):
             smalnum_aft_k_del(list1,del_num_count)
 
 l = list(input().split())
-n , k = list(map(int,list(l[0]))),int(l[1])
-smalnum_aft_k_del(n,k)
+n , d = list(map(int,list(l[0]))),int(l[1])
+smalnum_aft_k_del(n,d)
