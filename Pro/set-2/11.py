@@ -11,4 +11,8 @@ i = int(input())
 # for i in comb:
 #     d+=1
 # print(d)
+
+'''ncr'''
+
+
 print(i//2*(i-1))
