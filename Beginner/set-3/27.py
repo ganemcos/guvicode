@@ -4,4 +4,4 @@ def isfloat(i):
         return True
     except ValueError:
         return False
-print("yes" if isfloat(input()) else "no")
+print("Yes" if isfloat(input()) else "No")
