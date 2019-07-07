@@ -1,2 +1,2 @@
-i = input().replace(" ","")
-print(len(i))
+s = input().replace(" ","")
+print(len(s))
