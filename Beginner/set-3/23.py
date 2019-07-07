@@ -1,3 +1,3 @@
 i = input()
-s = list(map(int,input().split()))
-print(min(s))
+v = list(map(int,input().split()))
+print(min(v))
