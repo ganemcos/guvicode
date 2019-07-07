@@ -1,3 +1,3 @@
 null = input()
-l = sorted(map(int,input().split()),reverse =True)
-print(l[len(l)//2])
+s = sorted(map(int,input().split()),reverse =True)
+print(l[len(s)//2])
