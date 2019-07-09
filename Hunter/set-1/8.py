@@ -2,6 +2,6 @@ null = input()
 l = list(map(int,input().split()))
 for i in range(len(l)):
     for j in range(len(l)):
-        k = l[i]+l[j]
-        if k in l and i<j<k:
-            print(l[i],l[j],k)
+        for k in range(len(l)):
+            if l[i]+l[j] == l[k] and i<j<k:
+                print(l[i],l[j],l[k])
