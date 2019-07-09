@@ -27,3 +27,5 @@ fres = []
 blen = (len(b[-1]))
 fres= map(lambda x: x.zfill(blen), res)
 print(*fres,sep="\n")
+
+    #todo only one attempt
