@@ -17,7 +17,6 @@ bintostr(i,a)
 for i in range(len(b)):
     num.append(int(b[i],2))
 num.sort()
-# print(num)
 res = []
 for i in range(len(b)):
     res.append(bin(num[i])[2:])
