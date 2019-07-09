@@ -1,5 +1,7 @@
 rlen,r = input().split()
 rlen,r = int(rlen),int(r)
+if rlen < r:
+    r,rlen = rlen,r
 b = []
 for t in range(r):
     temp = list(map(int,input().split()))
