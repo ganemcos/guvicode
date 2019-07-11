@@ -10,7 +10,7 @@ for i in range(len(x)):
             a = t
             #print("p",t,le)
 for i in range(len(x)):
-    t = l[i:]
+    t = x[i:]
     rt = list(reversed(t))
     if t != rt:
         if len(t) > le:
