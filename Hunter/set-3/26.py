@@ -1,4 +1,4 @@
 n=int(input())
-l=list(map(int,input().split()))
-m=reversed(l)
+x=list(map(int,input().split()))
+m=reversed(x)
 print(*m,sep = "->")
